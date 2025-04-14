@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Notes Bro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+    <div class="container">
+      <div class="sidebar" id="sidebar">
+        <h2>Daftar Catatan</h2>
+        <div id="notesList"></div>
+      </div>
+      <div class="main-content">
+        <h1>My Notes Bro :v</h1>
+        <textarea
+          id="noteInput"
+          placeholder="Tulis catatanmu di sini..."
+        ></textarea>
+        <button onclick="addNote()">Tambah Catatan</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
